@@ -16,7 +16,9 @@ Future<void> main() async {
 
   runApp(GetMaterialApp(
     debugShowCheckedModeBanner: false,
-    // home: SignIn(),
+    // home: const homePage(
+    //   title: 'HomePage',
+    // ),
     home: login(),
     theme: ThemeData.light().copyWith(primaryColor: Colors.green),
     darkTheme: ThemeData.dark().copyWith(primaryColor: Colors.purple),
